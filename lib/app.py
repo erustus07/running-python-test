@@ -15,7 +15,6 @@ def getConcatenation(nums):
     ans = [n for i in range(2) for n in nums]
     return ans
     
-
 if __name__ == "__main__":
     print(pilot([2, 5, 6, 7, 11], 8))
     print(getConcatenation([2, 3]))
